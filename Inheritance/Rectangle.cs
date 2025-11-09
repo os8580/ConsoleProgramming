@@ -1,7 +1,7 @@
 ﻿class Rectangle : Shape, IShape
 {
     public int Width { get; set; }
-    public double getArea()
+    public double GetArea()
     {
         return Length * Width;
     }

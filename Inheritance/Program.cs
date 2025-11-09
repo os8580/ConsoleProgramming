@@ -23,8 +23,8 @@ triangle.Height = height;
 rectangle.Length = length;
 rectangle.Width = width;
 
-Console.WriteLine("Cube Area Is: " + cube.getArea());
-Console.WriteLine("Cube Area Is: " + cube.getVolume());
+Console.WriteLine("Cube Area Is: " + cube.GetArea());
+Console.WriteLine("Cube Area Is: " + cube.GetVolume());
 
-Console.WriteLine("Triangle Area Is: " + triangle.getArea());
-Console.WriteLine("Rectangle Area Is: " + rectangle.getArea());
+Console.WriteLine("Triangle Area Is: " + triangle.GetArea());
+Console.WriteLine("Rectangle Area Is: " + rectangle.GetArea());

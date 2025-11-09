@@ -2,7 +2,7 @@
 {
     public double Hypotenuese { get; set; }
 
-    public double getArea()
+    public double GetArea()
     {
         return .5 * Length * Height;
     }

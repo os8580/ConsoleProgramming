@@ -2,12 +2,12 @@
 {
     public double Width { get; set; }
 
-    public double getArea()
+    public double GetArea()
     {
         return Length * Width;
     }
 
-    public double getVolume()
+    public double GetVolume()
     {
         return Length * Width * Height;
     }
